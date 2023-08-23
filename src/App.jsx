@@ -6,7 +6,7 @@ import OurCompany from "./components/OurCompany";
 import TheTeam from "./components/TheTeam";
 import Vision from "./components/Vision";
 import WhyRMS from "./components/WhyRMS";
-import gsap from "gsap-trial";
+import gsap from "gsap";
 
 function App() {
   useLayoutEffect(() => {

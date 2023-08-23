@@ -1,4 +1,4 @@
-import gsap from "gsap-trial";
+import gsap from "gsap";
 import { useLayoutEffect, useRef } from "react";
 console.log("width", window.innerWidth);
 function OurCompany() {
