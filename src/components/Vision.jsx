@@ -1,11 +1,10 @@
 import { useLayoutEffect, useRef } from "react";
 import VisionMan from "../assets/visionMan.png";
 import VisionWoman from "../assets/visionWoman.png";
-import gsap from "gsap-trial";
-import { ScrollTrigger } from "gsap-trial/ScrollTrigger";
-import ScrollSmoother from "gsap-trial/ScrollSmoother";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+gsap.registerPlugin(ScrollTrigger);
 
 function Vision() {
   const main = useRef();
